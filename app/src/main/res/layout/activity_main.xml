@@ -1,46 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:ads="http://schemas.android.com/apk/res-auto"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	tools:context=".MainActivity">
+	android:layout_height="match_parent">
 
-	<LinearLayout
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:orientation="vertical"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent">
-
-		<TextView
-			android:id="@+id/text_joke_query"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textAlignment="center"
-			tools:text="Some joke query with no sense of humor" />
-
-		<Button
-			android:id="@+id/button_joke_query"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_gravity="center"
-			android:onClick="onJokeButtonClick"
-			android:text="Show answer" />
-	</LinearLayout>
-
-	<com.google.android.gms.ads.AdView
-		android:id="@+id/ad_joke"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		ads:adSize="BANNER"
-		ads:adUnitId="ca-app-pub-8152778795857948/4490357588"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent" />
-
+	<fragment
+		android:id="@+id/fragment_joke"
+		android:name="dev.oscarreyes.joketeleller.MainFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
