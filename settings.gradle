@@ -1,3 +1,4 @@
 rootProject.name='Joke Teleller'
 include ':app'
 include ':joke'
+include ':jokeanswerdisplayer'

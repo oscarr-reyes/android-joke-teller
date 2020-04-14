@@ -1,0 +1,4 @@
+<resources>
+	<string name="joke_answer_not_found">No joke was passed</string>
+	<string name="joke_answer_empty">No joke was found</string>
+</resources>
