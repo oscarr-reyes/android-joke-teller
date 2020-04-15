@@ -1,4 +1,4 @@
-package dev.oscarreyes.joketeleller;
+package dev.oscarreyes.joketeller;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

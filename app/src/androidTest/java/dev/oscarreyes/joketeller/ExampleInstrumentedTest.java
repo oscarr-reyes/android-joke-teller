@@ -1,4 +1,4 @@
-package dev.oscarreyes.joketeleller;
+package dev.oscarreyes.joketeller;
 
 import android.content.Context;
 

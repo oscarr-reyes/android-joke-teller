@@ -1,4 +1,4 @@
-package dev.oscarreyes.joketeleller;
+package dev.oscarreyes.joketeller;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,12 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import dev.oscarreyes.jokeanswerdisplayer.AnswerActivity;
 
 public class MainActivity extends AppCompatActivity {
-	private static final String TAG = MainFragment.class.getSimpleName();
+	private static final String TAG = MainActivity.class.getSimpleName();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.fragment_main);
+		setContentView(R.layout.activity_main);
 	}
 
 	public void onJokeButtonClick(View view) {

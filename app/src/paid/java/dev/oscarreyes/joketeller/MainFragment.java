@@ -1,4 +1,4 @@
-package dev.oscarreyes.joketeleller;
+package dev.oscarreyes.joketeller;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -20,4 +20,5 @@ public class MainFragment extends Fragment {
 	public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 		return inflater.inflate(R.layout.fragment_main, container, false);
 	}
+
 }
