@@ -14,8 +14,8 @@ import dev.oscarreyes.joke.entity.Joke;
 	name = "myApi",
 	version = "v1",
 	namespace = @ApiNamespace(
-		ownerDomain = "backend.builditbigger.gradle.udacity.com",
-		ownerName = "backend.builditbigger.gradle.udacity.com",
+		ownerDomain = "backend.oscarreyes.dev",
+		ownerName = "backend.oscarreyes.dev",
 		packagePath = ""
 	)
 )
